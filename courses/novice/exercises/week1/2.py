@@ -9,5 +9,5 @@
 """
 str1 = '  《五音集韻》說：「人死為鬼，人見懼之；鬼死為魙，鬼見怕之。」  '
 part = str1.strip().split('，人')
-print part[0]+'A'+'，人'+part[1]
+print part[0]+'A，人'+part[1]
 
