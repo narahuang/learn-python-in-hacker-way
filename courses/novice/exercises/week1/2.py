@@ -8,6 +8,6 @@
 提示: 使用str.split或是strings slice notation
 """
 str1 = '  《五音集韻》說：「人死為鬼，人見懼之；鬼死為魙，鬼見怕之。」  '
-part = str1.strip().split('，')
-print part[0]+'A'+'，'+part[1]+'，'+part[2]
+part = str1.strip().split('，人')
+print part[0]+'A'+'，人'+part[1]
 
